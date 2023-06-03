@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
+//Data Type and API Calls
 import { WorldData } from '../../api/models/worlddata';
-import numeral from 'numeral';
 import { fetchWorldData } from '../../api/apiservice';
+//for converting digits to specified format
+import numeral from 'numeral';
 
 function TotalCases() {
     const [worldData, setWorldData] = useState<WorldData | null>(null);

@@ -2,7 +2,7 @@ import React from "react";
 import LineGraph from "./LineGraph";
 import Map from "./Map";
 import TotalCases from "./TotalCases";
-const Dashboard = () => {
+function Dashboard() {
   return (
     <>
       <div>
